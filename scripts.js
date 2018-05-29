@@ -1,5 +1,5 @@
 function makeBuffer() {
-  
+
   var buffer = '';
 
   function maker(smth) {
@@ -7,7 +7,7 @@ function makeBuffer() {
       buffer += smth;
     } else {
       return buffer;
-    };    
+    };
   };
 
   return maker;
@@ -23,3 +23,4 @@ buffer(' Нужно!');
 
 // получить текущее значение
 buffer(); // Замыкания Использовать Нужно!
+buffer();
