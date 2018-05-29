@@ -9,3 +9,4 @@ function getFunc() {
 }
 
 getFunc()(); // 1, из window
+console.log(a);
